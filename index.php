@@ -22,7 +22,7 @@ else
 ?>
 
 <footer class="pt-5 my-5 text-muted border-top">
-    © <?=date("Y")?> · Created by David8316
+    © <?=date("Y")?> · Created by Davido8316
   </footer>
 </body>
 </html>

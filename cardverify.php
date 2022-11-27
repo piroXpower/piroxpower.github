@@ -8,7 +8,7 @@ $valid = false;
 $output = "Invalid";
 $outputtype = "";
 
-if (8 < $cnlengh && $cnlengh > 16)
+if (8 < $cnlengh)
 {
 
     if(is_valid_luhn($cn)==10)
@@ -30,7 +30,7 @@ if ($valid == true)
 If ($valid == true)
 {
     $output = "VALID";
-    $outputtype = "valid";
+    $outputtype = "success";
 }
 else
 {
